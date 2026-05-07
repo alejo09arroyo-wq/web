@@ -1,0 +1,159 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Zapatillas</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff4d4d, #ff9900);
+      color: white;
+      text-align: center;
+      padding: 25px;
+      border-bottom: 6px solid #222;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 30px;
+    }
+
+    .card {
+      background-color: white;
+      width: 250px;
+      border-radius: 15px;
+      overflow: hidden;
+      border: 4px solid #ff9900;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    .card p {
+      text-align: center;
+      padding: 0 10px;
+      color: #666;
+    }
+
+    .precio {
+      color: #ff4d4d;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .mapa {
+      text-align: center;
+      margin: 40px;
+    }
+
+    .mapa a {
+      background-color: #222;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .mapa a:hover {
+      background-color: #ff4d4d;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Urban Sneakers</h1>
+    <p>Las mejores zapatillas de CABA</p>
+  </header>
+
+  <section class="contenedor">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Zapatillas rojas">
+      <h2>Nike Air</h2>
+      <p>Zapatillas deportivas cómodas y modernas.</p>
+      <div class="precio">$120.000</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519" alt="Zapatillas blancas">
+      <h2>Adidas Run</h2>
+      <p>Perfectas para salir o entrenar.</p>
+      <div class="precio">$98.000</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77" alt="Zapatillas negras">
+      <h2>Puma Street</h2>
+      <p>Diseño urbano con máxima comodidad.</p>
+      <div class="precio">$110.000</div>
+    </div>
+
+  </section>
+
+  <div class="mapa">
+    <h2>Visitá un local en CABA</h2>
+
+    <p>
+      <a href="https://www.google.com/maps/place/Alto+Palermo/@-34.5889,-58.4116,17z"
+         target="_blank">
+         Ver local en Google Maps
+      </a>
+    </p>
+  </div>
+
+  <footer>
+    © 2026 Urban Sneakers
+  </footer>
+
+</body>
+</html>
+```
+
+El link lleva al shopping Alto Palermo en CABA, donde hay varios locales de zapatillas. ([altopalermo.com.ar][1])
+
+[1]: https://www.altopalermo.com.ar/?utm_source=chatgpt.com "Home - Alto Palermo"
